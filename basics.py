@@ -62,4 +62,84 @@ print(random.randrange(1,10))
 this is commenting
 print(hello universe)
 print(hello world)
+""""
+
+x=5
+ #stings
+
+e = "Andrew"
+print(e)
+print(type(e))
+
+#multilinestring
+f = """ My Name is Andrew
+    First of His Name
+    Leader of the Free World """
+print(f)
+
+t = "Hello World"
+print(t[5])
+
+#strings as arrays
+for x in "banana":
+    print(x)
+
+#checkstringlength
+p = "Kenya is the best"
+print(len(p))
+
+#check string
+txt = "The Best things in Life are Expensive"
+print("Expensive" in txt)
+print("Free" in txt)
+
+#Strings in if statements
+txt = "The best things in life are Expensive"
+if "Expensive2" in txt:
+    print("Expensive is present")
+
+#check if not
+txt= "The best things in life are expensive"
+print("free" not in txt)
+
+#slicing strings
+b = "  Hello, World  "
+print(b[2:5])
+print(b[:5])
+print(b[5:])
+#modify string
+#upppercase
+print(b.upper())
+#lowecase
+print(b.lower())
+#Removewhitespace
+print(b.strip())
+#Replacestring
+print(b.replace("H","K"))
+#split string
+print(b.split(","))
+
+#stringconcatination
+a = "Hello"
+b = "World"
+c= a+b
+print(c)
+
+#formatmethod
+age= 20
+txt = "My Name is Andrew and I am {}"
+print(txt.format(age))
+
+#Boolean
+print(10>9)
+print(10==9)
+print(10<9)
+
+a = 200
+b = 33
+
+if b > a:
+    print("b is greater than a")
+else:
+    print("b is not greater t
 
