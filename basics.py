@@ -40,7 +40,7 @@ myfunct()
 print("python is"+t)
 
 a="a"
-a="a"
+
 print(a+a)
 
 #datatypes
@@ -58,11 +58,10 @@ print(type(u))
 #randomnumber
 import random
 print(random.randrange(1,10))
-""""
-this is commenting
-print(hello universe)
-print(hello world)
-""""
+
+
+
+
 
 x=5
  #stings
@@ -141,7 +140,7 @@ b = 33
 if b > a:
     print("b is greater than a")
 else:
-    print("b is not greater t)
+    print("b is not greater t")
 
 print(bool("hello"))
 print(bool(15))
@@ -391,3 +390,35 @@ print(p1.age)
 print(p1.hieght)
 print(p1.weight)
 print(p1.catch_phrase)
+
+#class person:
+def __int__(self,name,age):
+        self.name =name
+        self.age =age
+
+def __str__(self):
+        return f"{self.name}({self.age})"
+#p1 =person("john",36)
+#print(p1)
+
+class person2:
+    def __init__(self,name,age):
+        self.name=name
+        self.age=age
+
+    def __str__(self):
+        return f"{self.name}{self.age}"
+
+p1=person2("john",36)
+print(p1)
+
+class person3:
+    def __init__(self, fname, lname):
+        self.firstname = fname
+        self.lastname = lname
+
+    def printname(self):
+        print(self.firstname, self.lastname)
+
+x = person3("John", "Doe")
+x.printname()
