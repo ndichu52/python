@@ -422,3 +422,13 @@ class person3:
 
 x = person3("John", "Doe")
 x.printname()
+ class person:
+     def __int__(self,name,age):
+         self.name = name
+         self.age = age
+
+     def myfunct(self):
+         print("hello my name is " + self.name)
+
+     p1 = person( "john",36)
+     p1.myfunc()
